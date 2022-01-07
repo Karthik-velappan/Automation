@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="TestNG Session Test Autimation Suite">
+
+     
+  <test name="Facebook">
+	 <classes>
+	   <class name="TestNg_Practice.Facebook_Test"/>
+	 </classes>
+   </test>
+   
+  <test name="Yahoo">
+     <classes>
+       <class name="TestNg_Practice.Yahoo_Mail_Test"/>
+     </classes>
+   </test>
+</suite>	
